@@ -143,6 +143,12 @@ button.search-btn {
     order: 1;
 }
 
+.ArtButton {
+    border-radius: 15px;
+    border: none;
+    color: gray;
+}
+
 .membership {
     border-radius: 10px;
     width: 55%;
