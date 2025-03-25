@@ -63,6 +63,19 @@ button.search-btn {
     margin-right: 460px;
 }
 
+.left-content .buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.left-content-header {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
 .right-sidebar {
     position: absolute;
     top: 120px;
@@ -94,19 +107,6 @@ button.search-btn {
     padding: 10px 25px;
     background-color: #f8f9fa;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.left-content .buttons {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
-}
-
-.left-content-header {
-    margin-top: 20px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
 }
 
 .box {
