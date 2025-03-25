@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-left: 25px;
+}
+
+.topbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    height: 40px;
+    margin-left: 10px;
+}
+
+.topbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.topbar-right > * {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+button.search-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.left {
+    flex: 3;
+    margin-left: 0;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid #e0e0e0;
+    padding-right: 480px;
+    margin-right: 460px;
+}
+
+.right-sidebar {
+    position: absolute;
+    top: 120px;
+    right: 70px;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.twitter-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    text-align: center;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+
+#topbar-2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    padding: 10px 25px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left-content .buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.left-content-header {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid white;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 100%;
+    max-width: 950px;
+}
+
+.box .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.box img.ArtImg {
+    max-width: 200px;
+    height: auto;
+    margin-left: 20px;
+    order: 2;
+}
+
+.box .text-content {
+    flex: 1; 
+    order: 1;
+}
+
+.membership {
+    border-radius: 10px;
+    width: 55%;
+    display: flex;
+    align-items: center;
+}
+
+#follwing {
+    color: gray;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#recommended {
+    color: gray;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.membership p {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.ArtImg {
+    position: relative;
+    max-width: 150px;
+    height: auto;
+    margin: 30px;
+    align-items: center;
+}
+
+.twitter-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #1da1f2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.twitter-button ion-icon {
+    margin-right: 5px;
+}
+
+.twitter-button p {
+    margin: 0;
+}
+
+.topics {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.followers {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.follower-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.follower-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.follower-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+
+.follow-button {
+    border-radius: 15px;
+    height: 20px;
+    margin-left: auto; 
+}
+
+.left-content-header.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid white;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 100%;
+    max-width: 950px;
+}
+
+.left-content-header.box .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.left-content-header.box img.ArtImg {
+    max-width: 200px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.saved-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
