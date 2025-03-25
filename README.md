@@ -5,4 +5,6 @@
 -Aggiunta cartella "assets"
 
 Difficolta avute: 
-Non sono riuscito a mettere bene le immagine nei box articoli come nel esempio per il resto credo sia fatto bene
+Non sono riuscito a mettere corettamente le immagine nei box articoli come nel esempio, per il resto altre difficolta che sono riuscito comunque a sistemare
+
+-Manuel Perez
